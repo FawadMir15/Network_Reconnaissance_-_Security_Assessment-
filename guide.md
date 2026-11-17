@@ -1,7 +1,0 @@
-Built the **Network Reconnaissance and Security Assessment** project in the workspace. It includes a Flask dashboard, private-network target validation, Nmap host and service scanning, OS fingerprinting attempts, risk findings, and HTML/PDF report generation.
-
-- Start with the setup steps in [README.md](C:\Users\uzbi6\Desktop\Vault\Fawad_Networks\README.md).
-- The sample dataset is [sample_results.json](C:\Users\uzbi6\Desktop\Vault\Fawad_Networks\sample_results.json), with a generated example report at [assessment_report.html](C:\Users\uzbi6\Desktop\Vault\Fawad_Networks\reports\assessment_report.html).
-- The main files are [app.py](C:\Users\uzbi6\Desktop\Vault\Fawad_Networks\app.py), [scanner.py](C:\Users\uzbi6\Desktop\Vault\Fawad_Networks\scanner.py), and [report_generator.py](C:\Users\uzbi6\Desktop\Vault\Fawad_Networks\report_generator.py).
-
-**Verification:** Python syntax, dashboard rendering, public-target rejection, sample risk analysis, and HTML report download passed. I couldn’t run a live scan or produce the PDF in this workspace because Nmap and ReportLab aren’t installed. Install the listed requirements and Nmap on Kali; then the app can scan an authorized lab target and generate the PDF. OS fingerprinting may require elevated privileges.
