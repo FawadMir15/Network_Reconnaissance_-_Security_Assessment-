@@ -1,0 +1,8 @@
+{
+  "target": "192.168.56.0/24",
+  "scanned_at": "2026-11-12T09:30:00+00:00",
+  "hosts": [
+    {"ip": "192.168.56.10", "hostname": "lab-web", "mac": "08:00:27:12:34:56", "vendor": "VirtualBox", "os": "Linux 5.x (estimate)", "ports": [{"port": 22, "protocol": "tcp", "service": "ssh", "product": "OpenSSH", "version": "9.2"}, {"port": 80, "protocol": "tcp", "service": "http", "product": "nginx", "version": "1.24"}]},
+    {"ip": "192.168.56.20", "hostname": "lab-files", "mac": "08:00:27:65:43:21", "vendor": "VirtualBox", "os": "Not determined", "ports": [{"port": 445, "protocol": "tcp", "service": "microsoft-ds", "product": "Samba", "version": "4.x"}]}
+  ]
+}
